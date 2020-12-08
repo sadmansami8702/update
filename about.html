@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    </head>
+    <style>
+        body{
+  background-image: url('https://raw.githubusercontent.com/JastAir/Android-BackgroundChart/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-03-08%20%D0%B2%2019.32.03.png');
+  background-size: 100% ;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button{
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.text{
+  margin-left: 0px;
+  font-family: 'Nerko One', cursive;
+  margin-top: 15px;
+  text-align: center;
+}
+    </style>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Tesla Lab</a>
+        <a href="about.html">About us</a>
+        <a href="panel.html">Panel Members</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="sl.html">Scientia Luminare</a>
+        <a href="start.html">Tests</a>
+        <a href="contact.html">Contact us</a>
+        <a href="developer.html">Developer</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div> 
+
+    <div class="text"><h1>Tesla Lab </h1></div>
+    <div class="text"><h4>Tesla Lab is a huge online science lab in Bangladesh, where a student can complete his experiments virtually and practically and apply it at home with pen in hand. </h4></div>
+    <div class="text"><h4>If a student of Tesla Lab has a problem with any of his projects, our lab will try its best to solve it</h4></div>
+    <div class="text"><h4>Again, the Tesla Lab works to attract every student to science</h4></div>
+    <div class="text"><h4>The Tesla Lab has huge opportunities for students to discuss about every department of science.</h4></div>
+    <div class="foooter">
+        <div class="footer">
+          <a href="index.html"><button class="button">Home</button></a>
+          <a href="event.html"><button class="button">Events</button></a>
+          <a href="start.html"><button class="button">Test </button></a>
+          <a href="contact.html"><button class="button">Contact</button></a>
+         </div>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+
+    </script>
+</body>
+</html>

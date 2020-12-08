@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    </head>
+    <style>
+        body{
+  background-image: url('https://raw.githubusercontent.com/JastAir/Android-BackgroundChart/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202019-03-08%20%D0%B2%2019.32.03.png');
+  background-size: 100% ;
+  
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.button{
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.text{
+  margin-left: 0px;
+  font-family: 'Nerko One', cursive;
+  margin-top: 15px;
+  text-align: center;
+}
+    </style>
+<body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Tesla Lab</a>
+      <a href="about.html">About us</a>
+      <a href="panel.html">Panel Members</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="sl.html">Scientia Luminare</a>
+      <a href="start.html">Tests</a>
+      <a href="contact.html">Contact us</a>
+      <a href="developer.html">Developer</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div> 
+    <div class="text"><h1>Scientifia Luminare </h1></div>
+    <div class="text"><h6>New Video Every Friday </h6></div>
+    <a href="https://www.youtube.com/watch?v=ZpVnOfieTeE"><img style="margin-left: 3%; margin-top: 10px;" src="https://i.ytimg.com/vi/ZpVnOfieTeE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLAOD2TC_CGO5QSkLpVqh8z9FopCtQ"></img></a>
+    <a href="https://www.youtube.com/watch?v=MrSfAkPag5o"><img style="margin-left: 3%; margin-top: 10px;" src="https://i.ytimg.com/vi/MrSfAkPag5o/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBnpnp9I-3VZLBlsagzHW6OY7hZLw"></img></a>
+    <a href="https://www.youtube.com/watch?v=EllF_VLcuvo"><img style="margin-left: 3%; margin-top: 10px;" src="https://i.ytimg.com/vi/EllF_VLcuvo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCk-WxWQAr9bRjZ3Ug13Z5By6solg"></img></a>
+    <a href="https://www.youtube.com/watch?v=ypTHes5ADQw&t=14s"><img style="margin-left: 3%; margin-top: 10px; margin-bottom: 70px;" src="https://i.ytimg.com/vi/ypTHes5ADQw/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAEtWhheeOv7LZc1ts3tdpNAjC8lA"></img></a>
+    <div class="foooter">
+        <div class="footer">
+            <a href="index.html"><button class="button">Home</button></a>
+            <a href="event.html"><button class="button">Events</button></a>
+            <a href="start.html"><button class="button">Test </button></a>
+            <a href="contact.html"><button class="button">Contact</button></a>
+         </div>
+    </div>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+
+    </script>
+</body>
+</html>
+
+
